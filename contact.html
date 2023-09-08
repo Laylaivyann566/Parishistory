@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+ </head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta name="description" content="Paris" />
+	<title>Paris</title>
+	<script src="contact.js"><</script>
+	<link rel="stylesheet" type="text/css" href="general.css" />
+	<link rel="stylesheet" type="text/css" href="header.css" />
+	<link rel="stylesheet" type="text/css" href="contact.css"/>
+	<link rel="stylesheet" type="text/css" href="footer.css" />
+
+</head>
+
+<body>
+	<header>
+		<h1>Paris</h1>
+
+		<label for="hamburger_checkbox">
+			<img class="hamburger_image" src="images/hamburger_icon.svg" alt="expand and collapse menu" />
+		</label>
+
+ 		<input id="hamburger_checkbox" type="checkbox" />
+		<nav>
+			<a class="active_nav" href="contact.html">contact</a>
+			<a href="photos.html">Photos</a>
+			<a href="about.html">about</a>
+			<a href="contact.html">index</a>
+		</nav>
+	</header>
+
+	<form id="contact_form">
+		<label for="fname">first name:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">last name :</label><br>
+		<input type="text" id="lname" name="lname"><br>
+		<label for="email"></label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="mobile">mobile:</label><br>
+		<input type="text" id="mobile" name="mobile"><br><br>
+		<label for="message" >message:</label><br>
+		<textarea id="message" name="message"></textarea><br><br>
+		<input type="submit" value="submit" onclick="insertinto(); return false"><br>
+		<input type="reset" value="reset>
+	</form>
+
+	<table id="myTable">
+
+	<tr>
+		  
+		<th>first name</th>
+		<th>last name</th>
+		<th>email</th>
+		<th>mobile</th>
+		<th>message</th>
+
+	</tr>
+	<footer>
+		 <img alt="Creative Commons License"
+		 src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+		<br/>
+		Paris by layla males is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+		 Attribution 4.0 International License</a>.
+	</footer>
+
+
+</body>
+</html>
